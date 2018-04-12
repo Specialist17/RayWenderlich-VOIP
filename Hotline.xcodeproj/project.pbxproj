@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		904433E82081496300C4BE8E /* ProviderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904433E72081496300C4BE8E /* ProviderDelegate.swift */; };
 		BB24136D1E16E45600D8285D /* CallTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB24136C1E16E45600D8285D /* CallTableViewCell.swift */; };
 		BB5C8C8F1E0AE13300029D74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5C8C8E1E0AE13300029D74 /* AppDelegate.swift */; };
 		BB5C8C941E0AE13300029D74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB5C8C921E0AE13300029D74 /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		904433E72081496300C4BE8E /* ProviderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderDelegate.swift; sourceTree = "<group>"; };
 		BB24136C1E16E45600D8285D /* CallTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallTableViewCell.swift; sourceTree = "<group>"; };
 		BB5C8C8B1E0AE13300029D74 /* Hotline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hotline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB5C8C8E1E0AE13300029D74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				BB5C8C8E1E0AE13300029D74 /* AppDelegate.swift */,
+				904433E72081496300C4BE8E /* ProviderDelegate.swift */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				TargetAttributes = {
 					BB5C8C8A1E0AE13300029D74 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PCNZSAFPQA;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -234,6 +238,7 @@
 				BB5C8CA71E0AF37000029D74 /* NewCallViewController.swift in Sources */,
 				BB6E171E1E19572400A2AF91 /* Audio.swift in Sources */,
 				BB5C8C8F1E0AE13300029D74 /* AppDelegate.swift in Sources */,
+				904433E82081496300C4BE8E /* ProviderDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +364,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = PCNZSAFPQA;
 				INFOPLIST_FILE = Hotline/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Hotline;
@@ -376,7 +381,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = PCNZSAFPQA;
 				INFOPLIST_FILE = Hotline/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Hotline;
